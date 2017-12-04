@@ -1,0 +1,59 @@
+body {
+
+
+}
+
+
+
+.container {
+	display: grid;
+	grid-template-columns: repeat(12, 1fr); 
+	grid-template-rows: 100px 500px 200px;
+	grid-gap: 20px; 
+	grid-template-areas: "h h h h h h h h h h h h "
+						 "g g g g g g g g s s s s "
+						 "b b b b b b b b b b b b ";
+	margin: 30px 30px;
+	text-align: center; 
+
+}
+
+.header {
+	grid-area: h; 
+	border-style: outset;
+    border-width: 5px; 
+	background: url(../images/brickwall.png);
+
+
+}
+
+h1 {
+	font-family: 'Sedgwick Ave Display', cursive;
+	font-size: 40px; 
+	margin: auto;
+	text-shadow: 4px 4px 4px #aaa;
+	padding: 30px; 
+	letter-spacing: 2px; 
+}
+
+.game {
+	grid-area: g; 
+	border: 2px solid red;
+}
+
+.stats {
+	grid-area: s; 
+	border: 2px solid blue;
+}
+
+.board {
+	grid-area: b;
+	border-style: outset;
+    border-width: 5px; 
+	background: url(../images/brickwall.png);
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 2px; 
+}
