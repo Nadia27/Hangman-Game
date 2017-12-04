@@ -6,12 +6,15 @@ var alphabet = ["A" , "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L",
 
 
 //*Choose words randomly
-var guessWords = ["Run DMC", "Nas", "turntable", "Outkast", "freestyle", "graffiti", 
-				"poetry", "The Breaks", "No Limit", "J Cole", "NWA", "mic check"];
+var guessWords = ['run dmc', 'nas', 'turntable', 'outkast', 'freestyle', 'graffiti', 
+				'poetry', 'the breaks', 'no limit', 'j cole', 'nwa', "mic check", 'jay z', 
+				'rick rubin', 'queen latifah', 'disc jockey', 'beatbox', 'gold chains', 'adidas', 'mixtape' ];
 
-var randomWord = Math.floor(Math.random() * guessWords.length);
+var randomWord = guessWords[Math.floor(Math.random() * guessWords.length)];
 let choosenWord = guessWords[randomWord];
 console.log(randomWord); 
+
+
 //create underscore based on length of word
 //get player input
 //check if guess is right
