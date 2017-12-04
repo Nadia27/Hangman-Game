@@ -1,4 +1,5 @@
 body {
+	background: #333333; 
 
 
 }
@@ -38,12 +39,31 @@ h1 {
 
 .game {
 	grid-area: g; 
-	border: 2px solid red;
+	border-style: outset;
+    border-width: 5px; 
+	background: url(../images/brickwall.png);
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 2px; 
 }
 
+#hangman {
+	border-style: double;
+	border-width: 5px; 
+
+}
 .stats {
 	grid-area: s; 
-	border: 2px solid blue;
+	border-style: outset;
+    border-width: 5px; 
+	background: url(../images/brickwall.png);
+	font-family: 'Sedgwick Ave Display', cursive;
+	text-shadow: 4px 4px 4px #aaa;
+	font-size: 30px;
+	padding: 10px;
+	letter-spacing: 2px; 
 }
 
 .board {
@@ -56,4 +76,9 @@ h1 {
 	font-size: 30px;
 	padding: 10px;
 	letter-spacing: 2px; 
+}
+
+.underscore {
+	padding-top: 25px;
+	font-size: 60px; 
 }
