@@ -66,6 +66,10 @@ h1 {
 	letter-spacing: 2px; 
 }
 
+#user {
+	padding-top: 20px; 
+}
+
 .board {
 	grid-area: b;
 	border-style: outset;
@@ -79,11 +83,18 @@ h1 {
 } 
 
 .board p {
-	font-size: 15px;  
+	font-size: 30px;  
 	text-align: left;
 }
 
+#user-text {
+	color: red; 
+	font-size: 50px; 
+	letter-spacing: 2px; 
+}
+
 .underscore {
-	padding-top: 25px;
-	font-size: 60px; 
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 40px; 
 }
