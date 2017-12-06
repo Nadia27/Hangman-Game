@@ -9,8 +9,7 @@
  	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
  	<!--Google Fonts-->
  	<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display" rel="stylesheet">
- 	<!--Javascript-->
- 	<script type="text/javascript" src="assets/javascript/game.js"></script>
+ 	
   </head>
   <body>
 
@@ -29,10 +28,12 @@
   		
   				<div class="stats">
 							<h3>Stats</h3>
-  					<p id="user">
-  						Player Name: <input type="text" id="pname" onkeyup
-  						
-  					</p>
+  					
+  							<h5 id="wins">Wins:</h5>
+  							<h5 id="losses">Losses:</h5>
+  							<h5 id="guessesLeft">Guesses Left:</h5>
+  							<h5 id="so-far">Guesses So Far:</h5>
+  							<h5 id="wrong">Wrong Letters:</h5>
 
   					</div>	
   			
@@ -43,7 +44,8 @@
   						<h4 id="blanks"></h4>
 
   						<div class="selections">
-						<h5> Your guessses:<p id="user-text"></p></h5>
+						<h5 id="wrong">Wrong Letters:</h5>
+
 					</div>
   					
 
@@ -60,7 +62,7 @@
 
 
 
-
+<script type="text/javascript" src="assets/javascript/game.js"></script>
 
 </body>
 </html>

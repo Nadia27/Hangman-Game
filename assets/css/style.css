@@ -66,6 +66,12 @@ h1 {
 	letter-spacing: 2px; 
 }
 
+.stats h5 {
+	text-align: left; 
+	padding: 20px;
+
+}
+
 #user {
 	padding-top: 20px; 
 }
