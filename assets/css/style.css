@@ -88,6 +88,10 @@ h1 {
 	letter-spacing: 2px; 
 } 
 
+#blanks {
+	padding: 10px; 
+}
+
 #wrong {
 	font-size: 30px;  
 	text-align: left;

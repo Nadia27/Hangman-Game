@@ -43,24 +43,7 @@ function startGame() {
 //Get user input
 //you need to figure this section out!!
 //alert win/lose
-function winLose() {
-
-   if (userGuess == randomWords) {
-
-      console.log(winLose); 
-   
-   }else {
-
-      alert("You lose: " + "the word was" + randomWords); 
-
-
-
-
-   }
-
-      
-	
-} 
+ 
 keyguess = false;
 
  document.onkeyup = function(event) {
