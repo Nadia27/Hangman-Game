@@ -22,6 +22,7 @@ function startGame() {
 //Generate randomWords 
 	randomWords = guessWords[Math.floor(Math.random() * guessWords.length)]; 
 		console.log('random word:' +randomWords);
+      //Separate each character...Split a string into an array of substrings
       chosenArtist = randomWords.split("");
       namelength = chosenArtist.length;
 
@@ -30,7 +31,9 @@ function startGame() {
 
 		underScore.push("_"); 
 	} 
-	document.getElementById("blanks").innerHTML= underScore.join(" "); 
+	
+//remove commas in underscore
+  document.getElementById("blanks").innerHTML= underScore.join(" "); 
 
 //variables to reset at start of game
 	wrongLetter = []; 
@@ -41,7 +44,7 @@ function startGame() {
 }
 
 //Get user input
-//you need to figure this section out!!
+
 //alert win/lose
  
 keyguess = false;
@@ -78,13 +81,13 @@ keyguess = false;
       			}
       			
       		 
-      		}else{// this needs to be figured out too!!
+      		}else{
 
       			wrongLetter.push(userGuess); 
       			document.getElementById("wrong").innerHTML += wrongLetter; 
       			
                   
-               //decrementing but cannot get to print to screen
+               
                guessesLeft--; 
       			document.getElementById("guessCounter").innerHTML = guessesLeft;
                   console.log(guessesLeft);
